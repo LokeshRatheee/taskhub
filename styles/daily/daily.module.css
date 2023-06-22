@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rosario&family=Rowdies&display=swap");
+
+
+.Logout{
+  cursor:pointer;
+}
+
+.todaydiv{
+  cursor : pointer;
+}
+.yesterdaydiv{
+  cursor : pointer;
+}
+.upcoming{
+  cursor : pointer;
+}
+.usericon{
+  cursor : pointer;
+}
+
+
+
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  padding-left: 17px;
+  padding-top: 19px;
+}
+.userProfileLogo {
+  padding-right: 11px;
+}
+.setting {
+  display: flex;
+  flex-direction: row;
+  padding-left: 17px;
+  padding-top: 19px;
+}
+.settingLogo {
+  padding-right: 11px;
+}
+.Logout {
+  display: flex;
+  flex-direction: row;
+  padding-left: 17px;
+  padding-top: 19px;
+}
+.logoutLogo {
+  padding-right: 11px;
+}
+
+.pop {
+  /* display : none; */
+  width: 242px;
+  height: 147px;
+  border: 1px solid #d7d7d7;
+  border-radius: 16px;
+  float: right;
+  margin-right: 125px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400px;
+  font-family: "Roboto";
+  line-height: 21px;
+  /* display: grid; */
+  display : none;
+}
+.appbar {
+  width: 100%;
+  height: 86px;
+  background: #ff4f5a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.tododaily {
+  width: 180px;
+  height: 45px;
+  font-family: "Rowdies";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: white;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 10px;
+}
+.logo {
+  margin-left: 22px;
+}
+.leftappbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.rightappbar {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.username {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+  padding-right: 21px;
+}
+.usericon {
+  padding-right: 136px;
+}
+.afterClickSideBar {
+  width: 306px;
+  background: #f9f9f9;
+  height: 100vh;
+  float: left;
+ 
+  /* display: none; */
+}
+.baricon {
+  color: #ff4f5a;
+  cursor: pointer;
+}
+.beforeSideBar {
+  width: 306px;
+  background: #f9f9f9;
+  height: 1031px;
+  float: left;
+  display: none;
+  /* background-color: black; */
+}
+.today {
+  width: 65px;
+  height: 28px;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ff4f5a;
+  padding-top: 52px;
+}
+.calendericon1 {
+  color: #ff4f5a;
+  padding-top: 52px;
+  padding-right: 19px;
+  padding-left: 42px;
+  padding-right: 19px;
+}
+.todaydiv {
+  margin: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.yesterday {
+  width: 65px;
+  height: 28px;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* color: #ff4f5a; */
+  padding-top: 52px;
+}
+.calendericon2 {
+  /* color: #ff4f5a; */
+  padding-top: 52px;
+  padding-right: 19px;
+  padding-left: 42px;
+  padding-right: 19px;
+}
+.yesterdaydiv {
+  margin: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #6b6b6b;
+}
+.upcoming {
+  width: 65px;
+  height: 28px;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* color: #ff4f5a; */
+  padding-top: 52px;
+}
+.calendericon3 {
+  /* color: #ff4f5a; */
+  padding-top: 52px;
+  padding-right: 19px;
+  padding-left: 42px;
+  padding-right: 19px;
+}
+.upcomingdiv {
+  margin: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #6b6b6b;
+}
+
+.anothercomponent {
+  width: 1422px;
+  height: 889px;
+  border-radius: 20px;
+  margin-left: 306px;
+}
+
+/* for mobile view */
+@media only screen and (max-width: 767px) {
+  .pop {
+    width: 29vw;
+    padding: 0;
+    margin: 10px;
+    height: 100%;
+    font-size: 13px;
+    font-weight: 400px;
+    font-family: "Roboto";
+    line-height: 21px;
+  }
+  .profile {
+    display: flex;
+    flex-direction: row;
+    justify-content :space-evenly;
+    padding-left : 0;
+    padding-top: 10px;
+  }
+  .userProfileLogo {
+    /* padding-right: 11px; */
+  }
+  .setting {
+    display: flex;
+    flex-direction: row;
+    justify-content : space-evenly;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+  .settingLogo {
+    /* padding-right: 11px; */
+  }
+  .Logout {
+    display: flex;
+    flex-direction: row;
+    justify-content : space-evenly;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom : 10px;
+  }
+  .logoutLogo {
+    /* padding-right: 11px; */
+  }
+
+  .tododaily {
+    font-size: 15px;
+  }
+  .usericon {
+    padding-right: 65px;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+  .xyz {
+    position: relative;
+  }
+  .beforeSideBar {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 90%;
+    /* position: relative; */
+    /* display: none; */
+  }
+
+  .baricon {
+    font-size: 20px;
+  }
+  .afterClickSideBar {
+    display: block;
+    width: 40%;
+    display: none;
+    position: absolute;
+    /* top: 10px; */
+
+    /* background-color: black; */
+  }
+  .today {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ff4f5a;
+  }
+  .calendericon1 {
+    color: #ff4f5a;
+    padding: 0;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+  }
+  .todaydiv {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 52px;
+  }
+  .yesterday {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .calendericon2 {
+    /* color: #ff4f5a; */
+    padding: 0;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+  }
+  .yesterdaydiv {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #6b6b6b;
+    padding-top: 52px;
+  }
+  .upcoming {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .calendericon3 {
+    /* color: #ff4f5a; */
+    padding: 0;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+  }
+  .upcomingdiv {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #6b6b6b;
+    padding-top: 52px;
+  }
+  .anothercomponent {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .pop {
+    width: 20%;
+    padding: 0;
+    margin: 10px;
+    height: 100%;
+    font-size: 13px;
+    font-weight: 400px;
+    font-family: "Roboto";
+    line-height: 21px;
+  }
+  .profile {
+    display: flex;
+    flex-direction: row;
+    padding-left: 17px;
+    padding-top: 10px;
+  }
+  .userProfileLogo {
+    padding-right: 11px;
+  }
+  .setting {
+    display: flex;
+    flex-direction: row;
+    padding-left: 17px;
+    padding-top: 10px;
+  }
+  .settingLogo {
+    padding-right: 11px;
+  }
+  .Logout {
+    display: flex;
+    flex-direction: row;
+    padding-left: 17px;
+    padding-top: 10px;
+    padding-bottom : 10px;
+  }
+  .logoutLogo {
+    padding-right: 11px;
+  }
+  .tododaily {
+    font-size: 15px;
+  }
+  .usericon {
+    padding-right: 10px;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+  .xyz {
+    position: relative;
+  }
+  .beforeSideBar {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+
+    align-items: center;
+    padding-left: 90%;
+    /* position: relative; */
+    /* display: none; */
+  }
+
+  .baricon {
+    font-size: 20px;
+  }
+  .afterClickSideBar {
+    display: block;
+    width: 23%;
+    display: none;
+    position: absolute;
+    /* top: 10px; */
+
+    /* background-color: black; */
+  }
+  .today {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ff4f5a;
+  }
+  .calendericon1 {
+    color: #ff4f5a;
+    padding: 0;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+  }
+  .todaydiv {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 52px;
+  }
+  .yesterday {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .calendericon2 {
+    /* color: #ff4f5a; */
+    padding: 0;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+  }
+  .yesterdaydiv {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #6b6b6b;
+    padding-top: 52px;
+  }
+  .upcoming {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .calendericon3 {
+    /* color: #ff4f5a; */
+    padding: 0;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+  }
+  .upcomingdiv {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #6b6b6b;
+    padding-top: 52px;
+  }
+  .anothercomponent {
+    width: 100%;
+    margin: 0;
+  }
+}
+

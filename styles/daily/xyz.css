@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rosario&family=Rowdies&display=swap");
+
+.container {
+  width: 1422px;
+  height: 889px;
+  border-radius: 20px;
+}
+.todaygroup {
+  width: 1090px;
+  height: 556px;
+  margin-top: 37px;
+  margin-left: 47px;
+}
+.today {
+  width: 130px;
+  height: 56px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ff4f5a;
+}
+.tasks {
+  width: 157px;
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #414141;
+  /* padding-top: 22px;
+  padding-bottom: 22px; */
+}
+.tasklist {
+  width: 1090px;
+  height: 428px;
+}
+.xyz {
+  display: grid;
+  gap: 15px;
+}
+.checkicon {
+  margin-top: 10px;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1051px;
+  height: 90px;
+  border-radius: 8px;
+  margin-left: 13px;
+  border: 1px solid #e3e3e3;
+}
+.leftside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 19px;
+}
+.list1 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: center; */
+}
+.listheading {
+  width: 256px;
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+.listp {
+  width: 654px;
+  height: 26px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #787878;
+}
+.pencilsquare {
+  padding-top: 17px;
+  padding-right: 27px;
+}
+.deletebtn {
+  width: 176px;
+  height: 59px;
+  background: white;
+  border: 1px solid #dadada;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* display: none; */
+  /* padding-right: 100px; */
+}
+.btndeletetext {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ff4f5a;
+}
+.addtaskli {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  display: none;
+}
+.addtask {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ff4f5a;
+}
+.addtaskicon {
+  margin-right: 31px;
+}
+
+.tasktitle {
+  width: 1048px;
+  height: 42px;
+  /* float: right; */
+  border: transparent;
+  border-bottom: 1px solid #e7e7e7;
+
+  /* border-radius: 12px; */
+}
+.description {
+  width: 1048px;
+  height: 90px;
+
+  border: transparent;
+}
+.inputboxs {
+  width: 1048px;
+  height: 142px;
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+  float: right;
+}
+.tasktitle::placeholder {
+  padding-left: 17px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #bcbcbc;
+}
+.description::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #bcbcbc;
+  padding-left: 17px;
+  /* color: red; */
+  padding-top: 10px;
+  margin-bottom: 100px;
+  top: 0px;
+  position: absolute;
+}
+.addCancelbtn {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  gap: 10px;
+  padding-top: 30px;
+}
+.btnadd {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #ff4f5a;
+  background: #ff4f5a;
+  border-radius: 8px;
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.btncancel {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #ff4f5a;
+  background: #ff4f5a;
+  border-radius: 8px;
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+
+@media only screen and (max-width: 480px) {
+  
+}

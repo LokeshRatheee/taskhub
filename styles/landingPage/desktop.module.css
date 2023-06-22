@@ -1,0 +1,912 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rosario&family=Rowdies&display=swap");
+
+.textlinkLogin {
+  color: #ff4f5a;
+  text-decoration: none;
+}
+.textlinkSignup {
+  color: black;
+  text-decoration: none;
+}
+
+.bgimg {
+  /* display: none; */
+}
+.textlinkLogin {
+  color: #ff4f5a;
+  text-decoration: none;
+}
+.textlinkSignup {
+  color: black;
+  text-decoration: none;
+}
+.navbar {
+  width: 1146px;
+  height: 45px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 90px;
+}
+.leftnavbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.rightnavbar {
+  /* width: 13%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.tododaily {
+  width: 180px;
+  height: 45px;
+  font-family: "Rowdies";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ff4f5a;
+}
+.login {
+  width: 57px;
+  height: 29px;
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ff4f5a;
+  padding-right: 26px;
+}
+.signup {
+  width: 70px;
+  height: 29px;
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.hero {
+  margin: auto;
+  width: 1363px;
+  height: 1072px;
+  padding-top: 73px;
+}
+.heroheading {
+  width: 571px;
+  height: 116px;
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #000000;
+  margin: auto;
+  display: block;
+  padding-bottom: 40px;
+}
+.btnGetStarted {
+  width: 232px;
+  height: 58px;
+  margin: auto;
+  display: block;
+  background-color: #ff4f5a;
+  border-radius: 8px;
+  border-color: transparent;
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+}
+.bgimg {
+  width: 100%;
+  height: 100%;
+}
+.bgImage {
+  /* display : none; */
+  width: 1363px;
+  height: 909px;
+  /* background-image: url("/landingPage/hero-section-img.png"); */
+}
+.stepSection {
+  width: 1072px;
+  height: 383px;
+  padding-top: 161px;
+  margin: auto;
+}
+.ssHeading {
+  width: 655px;
+  height: 58px;
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #000000;
+  display: block;
+  margin: auto;
+}
+.ssIcons {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.ssIconText {
+  text-align: center;
+  display: block;
+  /* width: 94px; */
+  height: 35px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  text-align: center;
+}
+.noteicon,
+.repeat,
+.dotit,
+.smalltask {
+  /* margin: auto; */
+  width: 140px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.ssIcons {
+  padding-top: 115px;
+}
+.getStartedSection {
+  width: 1031px;
+  height: 370px;
+  margin: auto;
+  padding-top: 296px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gsrightHeading {
+  width: 392px;
+  height: 116px;
+  padding-bottom: 40px;
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  float: right;
+  display: block;
+}
+.getstartedbtn {
+  width: 232px;
+  height: 58px;
+  border-radius: 8px;
+  border-color: transparent;
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+  background: #ff4f5a;
+}
+.getStartedright {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  width: 1146px;
+  height: 258px;
+  margin: auto;
+  padding-top: 172px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footerRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.group1,
+.group2 {
+  width: 93px;
+  height: 193px;
+}
+.group1 {
+  padding-right: 141px;
+}
+.h6 {
+  width: 93px;
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ff4f5a;
+}
+.groupli {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #737373;
+}
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footerleftg1 {
+  display: flex;
+  flex-direction: row;
+}
+.habit {
+  width: 245px;
+  height: 56px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+  padding-left: 28px;
+  padding-bottom: 61px;
+}
+.companyName {
+  width: 315px;
+  height: 56px;
+  left: 0px;
+  top: 157px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  padding-top: 62px;
+}
+
+/* mobile view */
+@media only screen and (max-width: 767px) {
+  .navbar {
+    width: 80%;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+  }
+  .leftnavbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .rightnavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tododaily {
+    font-family: "Rowdies";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 45px;
+    color: #ff4f5a;
+  }
+  .logo {
+    display: none;
+  }
+  .login {
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vw;
+    color: #ff4f5a;
+    padding-right: 26px;
+  }
+
+  .signup {
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    color: #000000;
+  }
+  .hero {
+    margin: auto;
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: fit-content;
+  }
+  .heroheading {
+    width: 100%;
+    height: fit-content;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
+    line-height: 5vh;
+  }
+  .btnGetStarted {
+    width: 102px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    background-color: #ff4f5a;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .bgimg {
+    width: 100%;
+    display: block;
+  }
+  .bgImage {
+    width: 100%;
+    height: fit-content;
+
+    /* display: none; */
+  }
+  .stepSection {
+    width: 80%;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    margin: auto;
+    height: fit-content;
+  }
+  .ssHeading {
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    text-align: center;
+    color: #000000;
+    display: block;
+    margin: auto;
+    width: 100%;
+    line-height: 6vh;
+    height: fit-content;
+  }
+  .ssIcons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  .ssIconText {
+    text-align: center;
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    /* line-height: 35px; */
+    color: #000000;
+    text-align: center;
+    /* padding-bottom: 30px; */
+    height: fit-content;
+  }
+  .noteicon,
+  .repeat,
+  .dotit,
+  .smalltask {
+    margin: auto;
+    width: 140px;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    height: fit-content;
+    padding-bottom: 10px;
+  }
+  .ssIcons {
+    padding-top: 25px;
+    margin: auto;
+  }
+  .ssicons {
+    width: 10vw;
+    height: fit-content;
+    margin: auto;
+  }
+  .getStartedSection {
+    width: 80%;
+    /* height: 370px; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 0px;
+  }
+  .gsrightHeading {
+    padding: 20px 0;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    color: #000000;
+    text-align: center;
+    display: block;
+    height: fit-content;
+  }
+  .getstartedbtn {
+    width: 102px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 44px; */
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    background: #ff4f5a;
+  }
+  .getStartedright {
+    display: flex;
+    flex-direction: column;
+  }
+  .getStartedSectionImg {
+    width: 100%;
+    height: 100%;
+  }
+  .footer {
+    width: 80%;
+    /* height: 258px; */
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 2px solid #ff4f5a;
+  }
+  .footerLogo{
+    width: 9vw;
+    padding-left: 10px;
+  }
+  .footerRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+
+    /* align-items: center; */
+  }
+  .group1 {
+    padding-right: 100px;
+  }
+  .h6 {
+    /* width: 93px;
+    height: 28px; */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ff4f5a;
+  }
+  .groupli {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #737373;
+  }
+  .footerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerleftg1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .habit {
+    /* width: 245px;
+    height: 56px; */
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    /* line-height: 28px; */
+
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px ;
+    padding-bottom: 30px;
+  }
+  .companyName {
+    /* width: 315px;
+    height: 56px; */
+    left: 0px;
+    top: 157px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .company {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    /* padding-top: 0px; */
+  }
+}
+
+/* tablet view */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    width: 80%;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+  }
+  .leftnavbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 28%;
+    flex-direction: row;
+  }
+  .rightnavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+  }
+  .tododaily {
+    /* width: 70px; */
+    /* height: 45px; */
+    font-family: "Rowdies";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ff4f5a;
+  }
+  .logo {
+    /* display: none; */
+    width: 35px;
+  }
+  .login {
+    height: 100%;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #ff4f5a;
+    padding-right: 26px;
+  }
+  .signup {
+    height: 100%;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  .hero {
+    margin: auto;
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .heroheading {
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
+  }
+  .btnGetStarted {
+    margin: 0;
+    width: 102px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    background-color: #ff4f5a;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding: auto;
+    text-align: center;
+    color: #ffffff;
+  }
+  .bgimg {
+    width: 100%;
+    /* height: 100%; */
+  }
+  .bgImage {
+    /* display : none; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: fit-content;
+    /* background-image: url("/landingPage/hero-section-img.png"); */
+  }
+  .stepSection {
+    width: 80%;
+    height: fit-content;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: auto;
+  }
+  .ssHeading {
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    color: #000000;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .ssIcons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  .ssIconText {
+    text-align: center;
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .noteicon,
+  .repeat,
+  .dotit,
+  .smalltask {
+    margin: auto;
+    width: 140px;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15 px;
+    height: fit-content;
+  }
+  .ssIcons {
+    padding-top: 25px;
+    margin: auto;
+  }
+  .ssicons {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+  }
+  .getStartedSection {
+    width: 80%;
+    height: fit-content;
+    /* height: 370px; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 0;
+  }
+  .gsrightHeading {
+    padding: 20px 0;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    display: block;
+    padding-top: 40px;
+  }
+  .getstartedbtn {
+    width: 102px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 44px; */
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    background: #ff4f5a;
+  }
+  .getStartedright {
+    display: flex;
+    flex-direction: column;
+  }
+  .getStartedSectionImg {
+    width: 100%;
+    height: 100%;
+  }
+  .footer {
+    width: 80%;
+    /* height: 258px; */
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 2px solid #ff4f5a;
+  }
+  .footerRight {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding-bottom: 40px;
+
+    /* align-items: center; */
+  }
+  .group1 {
+    padding-right: 100px;
+  }
+  .h6 {
+    /* width: 93px;
+      height: 28px; */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ff4f5a;
+  }
+  .groupli {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #737373;
+  }
+  .footerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerleftg1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .habit {
+    width: 245px;
+    height: 56px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 30px;
+  }
+  .companyName {
+    /* width: 315px;
+      height: 56px; */
+    left: 0px;
+    top: 157px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+    width: unset;
+  }
+  .company {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    /* padding-top: 0px; */
+  }
+}

@@ -1,0 +1,13 @@
+.label {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 45px;
+  margin-right: 45px;
+  font-size: x-large;
+  font-family: Roboto;
+}
+@media only screen and (max-width: 480px){
+  .label{
+    font-size: large;
+  }
+}

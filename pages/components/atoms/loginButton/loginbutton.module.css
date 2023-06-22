@@ -1,0 +1,43 @@
+
+  
+
+  .loginBtn {
+    outline: 1px solid #f48982;
+    color: white;
+    background-color: #f48982;
+    display: block;
+    width: 85%;
+    height: 48px;
+    margin: auto;
+    font-family: Roboto;
+    margin-bottom: 20px;
+  }
+
+
+  .loginBtn:hover {
+    background-color: #fdf2e9;
+    color: #f48982;
+  }
+  .loginBtn,
+  .loginBtn:link,
+  .loginBtn:visited {
+    /* display: inline-block; */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 9px;
+    border: none;
+
+    cursor: pointer;
+   
+
+    transition: all 0.3s;
+  }
+
+
+  @media only screen and (max-width: 480px){
+    .loginBtn{
+      height: 35px;
+      font-size: large;
+    }
+  }

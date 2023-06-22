@@ -1,0 +1,290 @@
+@media only screen and (max-width: 480px) {
+    .navbar {
+      width: 80%;
+      height: 45px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 40px;
+    }
+    .leftnavbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      width: 20%;
+    }
+    .rightnavbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .tododaily {
+      width: 80px;
+      height: 45px;
+      font-family: "Rowdies";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 45px;
+      color: #ff4f5a;
+    }
+    .logo {
+      display: none;
+    }
+    .login {
+      width: 45px;
+      height: 100%;
+      font-family: "Rosario";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 29px;
+      color: #ff4f5a;
+      padding-right: 26px;
+    }
+    .signup {
+      width: 45px;
+      height: 100%;
+      font-family: "Rosario";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 29px;
+      /* identical to box height */
+  
+      color: #000000;
+    }
+    .hero {
+      margin: auto;
+      width: 80%;
+      margin: auto;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .heroheading {
+      font-family: "Rosario";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 58px;
+      text-align: center;
+      color: #000000;
+      margin: auto;
+      display: block;
+      padding-bottom: 20px;
+    }
+    .btnGetStarted {
+      width: 102px;
+      height: 40px;
+      margin: auto;
+      display: block;
+      background-color: #ff4f5a;
+      border-radius: 8px;
+      border-color: transparent;
+      font-family: "Rosario";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+  
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .bgimg {
+      width: 100%;
+      height: 100%;
+    }
+    .stepSection {
+      width: 80%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin: auto;
+    }
+    .ssHeading {
+      font-family: "Rosario";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      text-align: center;
+      color: #000000;
+      display: block;
+      margin: auto;
+    }
+    .ssIcons {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin: auto;
+      justify-content: space-between;
+      align-items: center;
+      margin: auto;
+    }
+    .ssIconText {
+      text-align: center;
+      display: block;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 35px;
+      color: #000000;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    .noteicon,
+    .repeat,
+    .dotit,
+    .smalltask {
+      margin: auto;
+      width: 140px;
+      display: grid;
+      grid-auto-flow: row;
+      justify-content: center;
+      align-items: center;
+      row-gap: 20px;
+    }
+    .ssIcons {
+      padding-top: 25px;
+      margin: auto;
+    }
+    .ssicons {
+      width: 59px;
+      height: 59px;
+      margin: auto;
+    }
+    .getStartedSection {
+      width: 80%;
+      /* height: 370px; */
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 40px;
+    }
+    .gsrightHeading {
+    
+      padding : 20px 0;
+      font-family: "Rosario";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      color: #000000;
+      text-align: center;
+      display: block;
+    }
+    .getstartedbtn {
+      width: 102px;
+      height: 40px;
+      border-radius: 8px;
+      border-color: transparent;
+      font-family: "Rosario";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      /* line-height: 44px; */
+      margin: auto;
+      text-align: center;
+      color: #ffffff;
+      background: #ff4f5a;
+    }
+    .getStartedright {
+      display: flex;
+      flex-direction: column;
+    }
+    .getStartedSectionImg {
+      width: 100%;
+      height: 100%;
+    }
+    .footer {
+      width: 80%;
+      /* height: 258px; */
+      margin: auto;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-top: 2px solid #ff4f5a;
+    }
+    .footerRight {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-bottom: 40px;
+   
+      /* align-items: center; */
+    }
+    .group1 {
+      padding-right: 100px;
+    }
+    .h6 {
+      /* width: 93px;
+      height: 28px; */
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: #ff4f5a;
+    }
+    .groupli {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+    
+      color: #737373;
+    }
+    .footerLeft {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .footerleftg1 {
+      display: flex;
+      flex-direction: row;
+    }
+    .habit {
+      width: 245px;
+      height: 56px;
+    
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+    
+      color: #000000;
+      padding-left: 28px;
+      padding-bottom: 30px;
+    }
+    .companyName {
+      /* width: 315px;
+      height: 56px; */
+      left: 0px;
+      top: 157px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: #000000;
+      padding-top: 30px;
+      
+    }
+    .company{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 60px;
+      /* padding-top: 0px; */
+    }
+    
+  }

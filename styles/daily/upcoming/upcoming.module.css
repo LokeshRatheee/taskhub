@@ -1,0 +1,959 @@
+.pencilsquare{
+  cursor : pointer;
+}
+
+
+
+
+  .sliderBtns {
+    padding-left: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 37px;
+    width: 90%;
+  
+  }
+  .forward {
+    width: 8vw;
+    /* height: 39px; */
+    border-radius: 8px;
+    background: #ff4f5a;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  }
+  .backward {
+    width: 8vw;
+    height: 6vh;
+    border-radius: 8px;
+    background: #ff4f5a;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  }
+  .upcomingContainer {
+    width: 50%;
+    height: 889px;
+    border-radius: 20px;
+
+  }
+  .upcomingGroup {
+    width: 72vw;
+    
+    height: 100vh;
+    /* border : 2px solid black */
+    /* height: 584px; */
+  }
+  .upcoming {
+    width: max-content;
+    /* height: 56px; */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #ff4f5a;
+    padding-left: 47px;
+    padding-top: 37px;
+    
+  }
+  .month {
+    width: max-content;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 30px;
+    padding-left: 50px;
+
+  }
+  .dateSlides {
+    width: 90%;
+    /* height: 56px; */
+    border-radius: 20px;
+    padding-left: 51px;
+    padding-top: 42px;
+    /* margin: auto; */
+    /* border : 2px solid black */
+    /* border-bottom: 1px solid #C4C4C4;; */
+  }
+  .dateSlidesUl {
+    display: grid;
+    grid-auto-flow: column;
+    /* padding-bottom: 10px; */
+    /* padding-left : 65px; */
+    overflow : hidden;
+    /* border : 2px solid black */
+  }
+  .dateSlidesUl > li {
+    /* width: 54px; */
+    /* height: 56px; */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    color: #ff4f5a;
+    /* border : 2px solid black */
+  }
+  .divider {
+    width: 100%;
+    height: 0px;
+    border: 1px solid #c4c4c4;
+  }
+  .tasks {
+    width: fit-content;
+    /* height: 28px; */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #414141;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    /* border : 2px solid */
+  }
+  .tasklist {
+    /* width: 80%; */
+    /* height: 428px; */
+    /* border : 2px solid */
+  }
+  .xyz {
+    display: grid;
+    gap: 15px;
+    /* border : 2px solid */
+  }
+  .checkicon {
+    margin-top: 10px;
+  }
+  .frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    height: 90px;
+    border-radius: 8px;
+    margin-left: 13px;
+    border: 1px solid #e3e3e3;
+  }
+  .leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 19px;
+  }
+  .list1 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+          align-items: center; */
+  }
+  .listheading {
+    width: 256px;
+    height: 28px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+  }
+  .listp {
+    width: 654px;
+    height: 26px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #787878;
+  }
+  .pencilsquare {
+    padding-top: 17px;
+    padding-right: 27px;
+  }
+  .rightsideicons{
+    position : relative;
+  }
+  
+  .deletebtn {
+    position : absolute;
+    right : 32px;
+    width: 176px;
+    height: 59px;
+    background: white;
+    border: 1px solid #dadada;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    /* display: flex; */
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+  }
+  /* .deletebtn {
+    width: 176px;
+    height: 59px;
+    background: white;
+    border: 1px solid #dadada;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  } */
+  .btndeletetext {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ff4f5a;
+  }
+  .addtaskli {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: none;
+  }
+  .addtask {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ff4f5a;
+  }
+  .addtaskicon {
+    margin-right: 31px;
+  }
+
+  .tasktitle {
+    width: 1048px;
+    height: 42px;
+    /* float: right; */
+    border: transparent;
+    border-bottom: 1px solid #e7e7e7;
+
+    /* border-radius: 12px; */
+  }
+  .description {
+    width: 1048px;
+    height: 90px;
+
+    border: transparent;
+  }
+  .inputboxs {
+    width: 1048px;
+    height: 142px;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+    float: right;
+  }
+  .tasktitle::placeholder {
+    padding-left: 17px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #bcbcbc;
+  }
+  .description::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #bcbcbc;
+    padding-left: 17px;
+    /* color: red; */
+    padding-top: 10px;
+    margin-bottom: 100px;
+    top: 0px;
+    position: absolute;
+    z-index: -3;
+  }
+  .addCancelbtn {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 10px;
+    padding-top: 30px;
+  }
+  .btnadd {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ff4f5a;
+    background: #ff4f5a;
+    border-radius: 8px;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .btncancel {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ff4f5a;
+    background: #ff4f5a;
+    border-radius: 8px;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .taskContainer {
+    padding-left: 47px;
+    padding-top: 22px;
+  }
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .sliderBtns {
+    width: 80%;
+    margin: auto;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 37px;
+  }
+  .forward {
+    width: 80px;
+    height: 29px;
+    border-radius: 8px;
+    background: #ff4f5a;
+    border: transparent;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+  }
+  .backward {
+    width: 80px;
+    height: 29px;
+    border-radius: 8px;
+    background: #ff4f5a;
+    border: transparent;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+  }
+  .upcomingDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .taskContainer {
+    padding-left: 0;
+    padding-top: 22px;
+  }
+  .upcomingGroup {
+    width: 100%;
+  }
+  .upcoming {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 56px;
+    color: #ff4f5a;
+    padding-left: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .month {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .dateSlides {
+    /* width: 100%; */
+    /* visibility: hidden; */
+    padding-right: 51px;
+  }
+  .dateSlidesUl {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content : center;
+    gap: 50px;
+    padding-bottom: 10px;
+    padding-top : 20px
+  }
+  .dateSlidesUl > li {
+    height: 56px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 56px;
+    text-align: center;
+    color: #ff4f5a;
+  }
+  .divider {
+    width: 60%;
+    margin: auto;
+  }
+  .tasks {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 8px; */
+    color: #414141;
+    text-align: center;
+  }
+  .tasklist {
+    width: 100%;
+
+    padding-top: 30px;
+  }
+  .xyz {
+    display: grid;
+    gap: 15px;
+  }
+  .checkicon {
+    display: none;
+  }
+  .frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+  }
+  .leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 19px;
+  }
+  .listheading {
+    width: 60%;
+    /* height: 28px; */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: black;
+    padding: 10px;
+  }
+
+  .listp {
+    width: 100%;
+    /* height: 26px; */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;
+    color: #787878;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .pencilsquare {
+    width: 18px;
+    height: 18px;
+  }
+  .deleteicon {
+    width: 13px;
+    height: 13px;
+  }
+  .rightsideicons{
+    position : relative;
+  }
+  .deletebtn {
+    position : absolute;
+    right : 0;
+    top : 70%;
+    width: 100px;
+    height: 39px;
+    background: white;
+    border: 1px solid #dadada;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+    /* padding-right: 100px; */
+  }
+  /* .deletebtn {
+    
+    width: 100px;
+    height: 39px;
+    background: white;
+    border: 1px solid #dadada;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+  } */
+  .rightsideicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+  .pencilsquare {
+    padding: 5px;
+  }
+  .addtaskli {
+    display: block;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: none;
+  }
+  .addtask {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ff4f5a;
+  }
+  .addtaskicon {
+    margin-right: 31px;
+  }
+  /* bug */
+  .inputboxs {
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 142px;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+  }
+  .tasktitle {
+    width: 100%;
+    height: 42px;
+    /* float: right; */
+    border: transparent;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  .description {
+    width: 100%;
+    height: 90px;
+    border: transparent;
+  }
+  .tasktitle::placeholder {
+    padding-left: 17px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #bcbcbc;
+  }
+  .description::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+    color: #bcbcbc;
+    padding-left: 17px;
+    /* color: red; */
+    padding-top: 10px;
+    margin-bottom: 100px;
+    top: 0px;
+    position: absolute;
+  }
+  .addCancelbtn {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 10px;
+    padding-top: 30px;
+  }
+  .btnadd {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ff4f5a;
+    background: #ff4f5a;
+    border-radius: 8px;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .btncancel {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ff4f5a;
+    background: #ff4f5a;
+    border-radius: 8px;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sliderBtns {
+    width: 80%;
+    margin: auto;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom : 37px;
+  }
+  .forward {
+    width: 120px;
+    height: 39px;
+    border-radius: 8px;
+    background: #ff4f5a;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  }
+  .backward {
+    width: 120px;
+    height: 39px;
+    border-radius: 8px;
+    background: #ff4f5a;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  }
+  .taskContainer {
+    padding-left: 0;
+    padding-top: 22px;
+  }
+  .upcomingGroup {
+    width: 100%;
+  }
+
+  .upcoming {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 56px;
+    color: #ff4f5a;
+    padding-left: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .month {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .dateSlides {
+    width: 100%;
+    /* visibility: hidden; */
+  }
+  .dateSlidesUl {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 40px;
+    padding-bottom: 10px;
+    justify-content : center;
+  }
+  .dateSlidesUl > li {
+    height: 56px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 56px;
+    text-align: center;
+    color: #ff4f5a;
+  }
+  .divider {
+    width: 60%;
+    margin: auto;
+  }
+  .tasks {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 8px; */
+    color: #414141;
+    text-align: center;
+  }
+  .tasklist {
+    width: 100%;
+
+    padding-top: 30px;
+  }
+  .xyz {
+    display: grid;
+    gap: 15px;
+  }
+  .checkicon {
+    display: none;
+  }
+  .frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+  }
+  .leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 19px;
+  }
+  .listheading {
+    width: 60%;
+    /* height: 28px; */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: black;
+    padding: 10px;
+  }
+
+  .listp {
+    width: 100%;
+    /* height: 26px; */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;
+    color: #787878;
+    padding: 10px;
+  }
+  .pencilsquare {
+    width: 18px;
+    height: 18px;
+  }
+  .deleteicon {
+    width: 13px;
+    height: 13px;
+  }
+  /* .deletebtn {
+    width: 100px;
+    height: 39px;
+    background: white;
+    border: 1px solid #dadada;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+  } */
+  .rightsideicons{
+    position : relative;
+  }
+  .deletebtn {
+    position : absolute;
+    top : 70%;
+    right : 0;
+    bottom : 0;
+    width: 100px;
+    height: 39px;
+    background: white;
+    border: 1px solid #dadada;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+    /* padding-right: 100px; */
+  }
+  .rightsideicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+  .pencilsquare {
+    padding: 5px;
+  }
+  .addtaskli {
+    display: block;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: none;
+  }
+  .addtask {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ff4f5a;
+  }
+  .addtaskicon {
+    margin-right: 31px;
+  }
+  /* bug */
+  .inputboxs {
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 142px;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+  }
+  .tasktitle {
+    width: 100%;
+    height: 42px;
+    /* float: right; */
+    border: transparent;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  .description {
+    width: 100%;
+    height: 90px;
+    border: transparent;
+  }
+  .tasktitle::placeholder {
+    padding-left: 17px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #bcbcbc;
+  }
+  .description::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+    color: #bcbcbc;
+    padding-left: 17px;
+    /* color: red; */
+    padding-top: 10px;
+    margin-bottom: 100px;
+    top: 0px;
+    position: absolute;
+  }
+  .addCancelbtn {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 10px;
+    padding-top: 30px;
+  }
+  .btnadd {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ff4f5a;
+    background: #ff4f5a;
+    border-radius: 8px;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .btncancel {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ff4f5a;
+    background: #ff4f5a;
+    border-radius: 8px;
+    font-family: "Rosario";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+

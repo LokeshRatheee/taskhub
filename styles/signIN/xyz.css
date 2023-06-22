@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rosario&family=Rowdies&display=swap");
+.box {
+  width: 512px;
+  height: 533px;
+  background: white;
+  border: 1px solid #d2d2d2;
+  border-radius: 6px;
+  margin: auto;
+  margin-top: 222px;
+  margin-bottom: 362px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 231px;
+  height: 45px;
+  padding-top: 41px;
+  padding-left: 39px;
+}
+.tododaily {
+  width: 180px;
+  height: 45px;
+  font-family: "Rowdies";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ff4f5a;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.signin {
+  /* position: absolute; */
+  width: 73px;
+  height: 30px;
+  margin-top: 42px;
+  margin-left: 39px;
+  margin-bottom: 38px;
+
+  font-family: "Rowdies";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  display: block;
+  color: #000000;
+}
+.buttonGoogle {
+  width: 431px;
+  height: 42px;
+  margin: auto;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #D8D8D8;
+  border-radius: 4px;
+  /* padding-bottom: 100px; */
+}
+.google{
+padding-left: 93px;
+padding-right: 10px;
+}
+.googletext{
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #000000;
+   
+}
+.signButtons{
+  display: grid;
+  gap: 20px;
+}
+.divider{
+  width: 431px;
+  margin: auto;
+  margin-top: 113px;
+}
+.footer{
+  padding-top: 18px;
+  margin: auto;
+  width: 213px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+}
+.footerSign{
+  color: #ff4f5a;
+}
+
+
+
+/* mobile view */
+@media only screen and (max-width: 480px) {
+  
+}
